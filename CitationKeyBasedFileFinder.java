@@ -40,8 +40,8 @@ package Task2;
 	        String citeKey = citeKeyOptional.get();
 
 	        List<Path> result = new ArrayList<>();
-
-	        // First scan directories
+ 
+	        // First scan directories hello
 	        Set<Path> filesWithExtension = findFilesByExtension(directories, extensions);
 
 	        // Now look for keys
