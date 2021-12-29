@@ -41,7 +41,7 @@ package Task2;
 
 	        List<Path> result = new ArrayList<>();
  
-	        // First scan directories HII
+	        // First scan directories Hello
 	        Set<Path> filesWithExtension = findFilesByExtension(directories, extensions);
 
 	        // Now look for keys
