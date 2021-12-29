@@ -1,12 +1,9 @@
 name: SonarCloud Scan
-on:
+on: push
   # Trigger analysis when pushing in master or pull requests, and when creating
   # a pull request.
-  push:
-    branches:
-      - "master"
-      - "feature*"
- 
+
+   
 
 jobs:
   sonarCloudTrigger:
